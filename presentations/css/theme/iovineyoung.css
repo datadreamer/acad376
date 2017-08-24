@@ -23,7 +23,7 @@ body {
 .reveal .slides > section, .reveal .slides > section > section {
   line-height: 1.2;
   font-weight: inherit;
-  text-align:left; }
+  text-align: center; }
 
 /*********************************************
  * HEADERS
@@ -334,9 +334,25 @@ body {
      font-style: normal;
  }
 
+ .noheader header { opacity: 0;}
+
+ .contentrow{
+ }
+
+ .contenttab{
+   float: left;
+   width: 30%;
+   margin: 0 1.5% 0 1.5% !important;
+ }
+
+ .st{
+   /*ST = subtitle*/
+   font-family: 'Futura', 'Helvetica Neue', Helvetica, sans-serif !important;
+   color: #999 !important;
+ }
+
 .titletext{
   text-align: left;
-  color: #09F;
 }
 
 .caption{
@@ -442,7 +458,6 @@ table{
 .gray{
   color: #999 !important;
 }
-
 
 canvas{
   width: 1920px !important;
